@@ -1,0 +1,27 @@
+<figure>
+   
+    <div>
+        <h3>nombre:</h3>
+        <p class="nombre">{{unpersonaje.personaje.nombre}} </p>
+    </div>
+    <div>
+        <h3>Don: </h3>
+        <p> {{ unpersonaje.personaje.don}}</p>
+    </div>
+    <div>
+        <h3>descripcion:</h3>
+        <p>descripcion: {{unpersonaje.personaje.descripcion}}</p>
+    </div>
+    <div>
+        <h3>género: </h3>
+        <p>{{unpersonaje.personaje.genero}}</p>
+    </div>
+    <div>
+        <h3>rol: </h3>
+        <p>{{unpersonaje.personaje.rol}}</p>
+    </div>
+    <img src="{{unpersonaje.personaje.gif}}" alt="{{unpersonaje.personaje.nombre}}">
+
+</figure>
+
+<a routerLink="../">Back to Characters</a>

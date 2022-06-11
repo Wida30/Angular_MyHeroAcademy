@@ -16,6 +16,7 @@ export class PersonajesComponent implements OnInit {
 
     this.personajeService.getPersonajes().subscribe((data:any) => {
       const personajesApi: PersonajeInterface[] = data.personajes.map((personaje: any) => ({
+        id: personaje.id,
         nombre: personaje.nombre,
         don: personaje.don,
         descripcion: personaje.descripcion,
@@ -24,6 +25,7 @@ export class PersonajesComponent implements OnInit {
         foto: personaje.foto
       }));
       this.personajeList = personajesApi
+      console.log(this.personajeList)
     })
   }
 

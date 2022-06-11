@@ -1,3 +1,4 @@
+import { SolounoComponent } from './pages/solouno/solouno.component';
 import { SuscribirComponent } from './pages/suscribir/suscribir.component';
 import { PersonajesComponent } from './pages/personajes/personajes.component';
 import { TemporadasComponent } from './pages/temporadas/temporadas.component';
@@ -9,8 +10,10 @@ const routes: Routes = [
   {path: "", component: HomeComponent, pathMatch: "full"},
   {path: "temporadas", component:TemporadasComponent},
   {path: "personajes", component:PersonajesComponent},
-  {path: "personajes/:personajeID", component:PersonajesComponent},
-  {path: "suscribirse", component:SuscribirComponent}
+  {path: "personajes/:personajeID", component:SolounoComponent},
+  {path: "suscribirse", component:SuscribirComponent},
+  
+ 
 ];
 
 @NgModule({

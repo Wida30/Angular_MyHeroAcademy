@@ -11,6 +11,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { TemsComponent } from './pages/temporadas/componentes/tems/tems.component';
 import { ValidacionComponent } from './pages/suscribir/validacion/validacion.component';
 import { DetallepersonajeComponent } from './pages/personajes/detallepersonaje/detallepersonaje.component';
+import { SolounoComponent } from './pages/solouno/solouno.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { DetallepersonajeComponent } from './pages/personajes/detallepersonaje/d
     HomeComponent,
     TemsComponent,
     ValidacionComponent,
-    DetallepersonajeComponent
+    DetallepersonajeComponent,
+    SolounoComponent
   ],
   imports: [
     BrowserModule,

@@ -1,10 +1,13 @@
-<section class="galeria">
+
   
 <h2>Personajes</h2>
 
+<section class="galeria" >
 
+<app-detallepersonaje *ngFor="let personaje of personajeList" [personaje] = "personaje"
 
-<app-detallepersonaje *ngFor="let personaje of personajeList" [personaje] = "personaje"></app-detallepersonaje>
+routerLink="{{personaje.id}}"
+></app-detallepersonaje>
 
 
 </section>

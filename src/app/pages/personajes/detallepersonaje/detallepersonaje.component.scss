@@ -1,6 +1,6 @@
 figure {
-  width: 30vw;
-  height: 50vh;
+  width: 15vw;
+  height: 35vh;
 
   border: 2px solid black;
   display: flex;
@@ -12,6 +12,7 @@ figure {
   text-transform: uppercase;
   // background-image: url(../../../../assets/);
   background-color: yellow;
+  margin-bottom: 5%;
 
   img {
     width: 80%;

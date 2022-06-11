@@ -1,0 +1,65 @@
+figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin: 2%;
+
+    div{
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap:5%;
+
+        h3  {
+            text-transform: uppercase;
+            font-weight: bold;
+            width: 15vw;
+        }
+        .nombre{
+
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+       
+        p{
+            text-transform: capitalize;
+            width: 50vw;
+        }
+
+    }   
+   
+
+
+    img{
+
+        width: 80%;
+        height: auto;
+        object-fit: cover;
+        margin: 5%;
+        box-shadow: 4px -4px 15px 0px #FF1F1F, 12px -11px 7px 0px #FF9376, 20px -5px 7px 0px #FFE264, 20px 6px 7px 0px #F6FF33, 13px 12px 17px 0px #FF9527, 2px 17px 17px 0px #FF0000, -9px 21px 18px 0px #FFF212, -9px 6px 11px 0px #FF0808, -11px -9px 11px 0px #FFFA17, -11px -9px 11px 0px #FFFA17, 5px 5px 15px 5px rgba(0,0,0,0);
+        border-radius: 3%;
+
+    }
+
+
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: yellow;
+    padding: 2%;
+    border-radius: 5%;
+    float: right;
+    margin-right: 5%;
+    box-shadow: 5px 5px 15px 5px #000000;
+    &:hover{
+        background-color: whitesmoke;
+        transition: all 0.5s;
+    }
+    
+}
