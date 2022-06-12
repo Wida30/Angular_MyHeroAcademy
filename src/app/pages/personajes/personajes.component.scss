@@ -1,11 +1,16 @@
-.galeria{
+.galeria {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2%;
+}
 
- 
+@media only screen and (max-width: 600px) {
+  .galeria {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
-   gap: 2%;
-   
-
+    align-items: center;
+  }
 }

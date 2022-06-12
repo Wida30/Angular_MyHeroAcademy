@@ -22,4 +22,8 @@ export class PersonajesService {
     return this.httpClient.get(`http://localhost:5000/bokunohero/id/${personajeID}`)
   }
 
+  public rolPersonaje(rol:any){
+    return this.httpClient.get(`http://localhost:5000/bokunohero/rol/${rol}`)
+  }
+
 }

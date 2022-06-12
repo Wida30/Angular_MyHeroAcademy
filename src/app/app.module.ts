@@ -9,9 +9,10 @@ import { PersonajesComponent } from './pages/personajes/personajes.component';
 import { SuscribirComponent } from './pages/suscribir/suscribir.component';
 import { HomeComponent } from './pages/home/home.component';
 import { TemsComponent } from './pages/temporadas/componentes/tems/tems.component';
-import { ValidacionComponent } from './pages/suscribir/validacion/validacion.component';
+
 import { DetallepersonajeComponent } from './pages/personajes/detallepersonaje/detallepersonaje.component';
 import { SolounoComponent } from './pages/solouno/solouno.component';
+import { RolesComponent } from './pages/roles/roles.component';
 
 @NgModule({
   declarations: [
@@ -22,9 +23,10 @@ import { SolounoComponent } from './pages/solouno/solouno.component';
     SuscribirComponent,
     HomeComponent,
     TemsComponent,
-    ValidacionComponent,
+    
     DetallepersonajeComponent,
-    SolounoComponent
+    SolounoComponent,
+    RolesComponent
   ],
   imports: [
     BrowserModule,

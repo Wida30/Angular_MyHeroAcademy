@@ -22,7 +22,8 @@ export class PersonajesComponent implements OnInit {
         descripcion: personaje.descripcion,
         genero: personaje.genero,
         rol: personaje.rol,
-        foto: personaje.foto
+        foto: personaje.foto,
+        gif:personaje.gif,
       }));
       this.personajeList = personajesApi
       console.log(this.personajeList)

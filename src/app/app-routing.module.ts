@@ -1,3 +1,4 @@
+import { RolesComponent } from './pages/roles/roles.component';
 import { SolounoComponent } from './pages/solouno/solouno.component';
 import { SuscribirComponent } from './pages/suscribir/suscribir.component';
 import { PersonajesComponent } from './pages/personajes/personajes.component';
@@ -12,6 +13,7 @@ const routes: Routes = [
   {path: "personajes", component:PersonajesComponent},
   {path: "personajes/:personajeID", component:SolounoComponent},
   {path: "suscribirse", component:SuscribirComponent},
+  {path: "personajes/:rol", component:RolesComponent},
   
  
 ];

@@ -4,18 +4,15 @@
   justify-content: space-evenly;
   align-items: center;
   margin: 5% 0%;
- 
+
   box-sizing: border-box;
 
   div {
     width: 40vw;
 
-   
-
     p {
       font-size: 1.5rem;
       text-align: justify;
-
       color: whitesmoke;
     }
   }
@@ -25,4 +22,17 @@
     height: 350px;
     object-fit: cover;
   }
+}
+
+@media only screen and (max-width: 600px) {
+  .temporadas {
+    display: flex;
+    flex-direction: column;
+
+    div{
+      width: 90vw;
+    }
+  }
+
+
 }
