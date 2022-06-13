@@ -13,6 +13,7 @@ import { TemsComponent } from './pages/temporadas/componentes/tems/tems.componen
 import { DetallepersonajeComponent } from './pages/personajes/detallepersonaje/detallepersonaje.component';
 import { SolounoComponent } from './pages/solouno/solouno.component';
 import { RolesComponent } from './pages/roles/roles.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -23,15 +24,16 @@ import { RolesComponent } from './pages/roles/roles.component';
     SuscribirComponent,
     HomeComponent,
     TemsComponent,
-    
-    DetallepersonajeComponent,
+     DetallepersonajeComponent,
     SolounoComponent,
     RolesComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

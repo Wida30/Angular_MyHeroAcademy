@@ -2,7 +2,7 @@
     suscribete a nuestra newsletter
 </h2>
 
-<form >
+<form novalidate (ngSubmit) = "registrarse()" [formGroup] = "subcripcionUsuario">
 
     <div>
         <label for="name"> nombre</label>
@@ -31,5 +31,7 @@
         <label for="check"> suscribirse a la newsletter</label>
         <input type="checkbox" id="check">
     </div>
+
+    <button>SUBCRIBIRSE</button>
 
 </form>
