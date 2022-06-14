@@ -19,13 +19,17 @@ body {
   background-size: cover;
 }
 h2 {
-  text-align: center;
+  
   font-size: 3rem;
   font-weight: bolder;
   padding: 2%;
   color: whitesmoke;
   text-transform: capitalize;
-  text-decoration: underline;
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+  padding-bottom: 0.7%;
+  width: fit-content;
+  margin-bottom: 2%;
 }
 
 

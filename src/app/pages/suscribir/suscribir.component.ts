@@ -63,6 +63,7 @@ export class SuscribirComponent implements OnInit {
       this.subcripcionUsuario.reset();
 
       this.resgistrado = false
+      alert("Continuamos trabajando para hacer funcional el formulario de suscripcion, gracias");
 
     }
 
