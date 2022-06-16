@@ -13,7 +13,7 @@ const routes: Routes = [
   {path: "personajes", component:PersonajesComponent},
   {path: "personajes/:personajeID", component:SolounoComponent},
   {path: "suscribirse", component:SuscribirComponent},
-  // {path: "personajes/:rol", component:RolesComponent},
+  {path: "personajes/:rol", component:RolesComponent},
   
  
 ];
