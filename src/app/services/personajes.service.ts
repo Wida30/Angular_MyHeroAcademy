@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class PersonajesService {
-  public personajesURL: string ="http://localhost:5000/bokunohero"
+  public personajesURL: string ="https://boku-no-hero-bbdd.vercel.app/"
 
   // "http://localhost:5000/bokunohero"
 
@@ -19,11 +19,11 @@ export class PersonajesService {
   }
 
   public solouno(personajeID:any){
-    return this.httpClient.get(`http://localhost:5000/bokunohero/id/${personajeID}`)
+    return this.httpClient.get(`https://boku-no-hero-bbdd.vercel.app/id/${personajeID}`)
   }
 
   public rolPersonaje(rol:any){
-    return this.httpClient.get(`http://localhost:5000/bokunohero/rol/${rol}`)
+    return this.httpClient.get(`https://boku-no-hero-bbdd.vercel.app/rol/${rol}`)
   }
 
 }

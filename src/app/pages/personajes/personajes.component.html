@@ -1,4 +1,5 @@
 
+<!-- <button >villanos</button> -->
   
 <h2>Personajes</h2>
 
@@ -8,6 +9,13 @@
 
 routerLink="{{personaje.id}}"
 ></app-detallepersonaje>
+
+<app-roles *ngFor="let personaje of personajeList" 
+routerLink="{{personaje.rol}}">
+
+<p>prueba</p>
+
+</app-roles>
 
 
 </section>
